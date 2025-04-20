@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Círculo de fondo -->
+  <circle cx="100" cy="100" r="96" fill="white" stroke="#2563EB" stroke-width="8"/>
+  
+  <!-- Letra N estilizada -->
+  <path d="M60 60V140H75V85L125 140H140V60H125V115L75 60H60Z" fill="#2563EB"/>
+  
+  <!-- Puntos de conexión -->
+  <circle cx="60" cy="60" r="10" fill="#3B82F6"/>
+  <circle cx="140" cy="60" r="10" fill="#3B82F6"/>
+  <circle cx="60" cy="140" r="10" fill="#3B82F6"/>
+  <circle cx="140" cy="140" r="10" fill="#3B82F6"/>
+  
+  <!-- Líneas de conexión -->
+  <path d="M60 70L60 130" stroke="#60A5FA" stroke-width="4" stroke-dasharray="6 6"/>
+  <path d="M70 60L130 60" stroke="#60A5FA" stroke-width="4" stroke-dasharray="6 6"/>
+  <path d="M70 140L130 140" stroke="#60A5FA" stroke-width="4" stroke-dasharray="6 6"/>
+  <path d="M140 70L140 130" stroke="#60A5FA" stroke-width="4" stroke-dasharray="6 6"/>
+</svg>
