@@ -1,0 +1,310 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0 2rem;
+  background-color: white;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+[data-theme='dark'] .heroBanner {
+  background-color: #0f172a;
+  border-bottom: 1px solid #334155;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+  letter-spacing: -0.025em;
+}
+
+[data-theme='dark'] .title {
+  color: #f8fafc;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #2563eb;
+  margin-bottom: 1.25rem;
+}
+
+[data-theme='dark'] .subtitle {
+  color: #3b82f6;
+}
+
+.description {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  color: #64748b;
+  max-width: 42rem;
+  line-height: 1.65;
+}
+
+[data-theme='dark'] .description {
+  color: #cbd5e1;
+}
+
+.highlight {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+[data-theme='dark'] .highlight {
+  color: #3b82f6;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.button {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.buttonIcon {
+  margin-left: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.videoContainer {
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+}
+
+[data-theme='dark'] .videoContainer {
+  border-color: #334155;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(15, 23, 42, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.videoOverlay:hover {
+  background-color: rgba(15, 23, 42, 0.1);
+}
+
+.playIcon {
+  font-size: 4rem;
+  color: white;
+  opacity: 0.9;
+}
+
+/* Estilos del contenido principal */
+.mainContent {
+  padding: 2rem 0;
+}
+
+.mainTitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #0f172a;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.75rem;
+}
+
+[data-theme='dark'] .mainTitle {
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+.mainDescription {
+  font-size: 1.125rem;
+  color: #334155;
+  margin-bottom: 1.5rem;
+  line-height: 1.65;
+}
+
+[data-theme='dark'] .mainDescription {
+  color: #e2e8f0;
+}
+
+.upgradeNote {
+  background-color: #f0f9ff;
+  border-left: 4px solid #0ea5e9;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  color: #0369a1;
+  font-size: 0.95rem;
+}
+
+[data-theme='dark'] .upgradeNote {
+  background-color: #0c4a6e;
+  border-left-color: #0ea5e9;
+  color: #7dd3fc;
+}
+
+.upgradeNote a {
+  color: #0284c7;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+[data-theme='dark'] .upgradeNote a {
+  color: #38bdf8;
+}
+
+/* Estilos de la sección de características de API */
+.apiFeature {
+  margin-top: 3rem;
+  padding: 2.5rem 2rem;
+  background-color: #f8fafc;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+}
+
+[data-theme='dark'] .apiFeature {
+  background-color: #1e293b;
+  border-color: #334155;
+}
+
+.featureTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #0f172a;
+}
+
+[data-theme='dark'] .featureTitle {
+  color: #f8fafc;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #334155;
+  font-size: 1.125rem;
+}
+
+[data-theme='dark'] .featureItem {
+  color: #e2e8f0;
+}
+
+.featureIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.125rem;
+  margin-right: 1rem;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.ctaContainer {
+  margin-top: 2rem;
+}
+
+.ctaButton {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.featureImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+/* Adaptabilidad */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .apiFeature {
+    padding: 2rem 1.5rem;
+  }
+
+  .featureTitle {
+    font-size: 1.25rem;
+  }
+
+  .featureItem {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .button {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.75rem;
+    justify-content: center;
+  }
+}
