@@ -15,15 +15,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://nexusdata.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  url: 'https://mbescalante.github.io',
+  baseUrl: '/nexusdata/',
 
   // GitHub pages deployment config.
-  // If you aren't GitHub pages, you don't need these.
-  organizationName: 'nexusdata', // Usually your GitHub org/user name.
-  projectName: 'nexusdata-docs', // Usually your repo name.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'mbescalante', // Usually your GitHub org/user name.
+  projectName: 'nexusdata', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // The branch where your site will be deployed
+  trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -46,14 +46,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nexusdata/nexusdata-docs/edit/main/',
+            'https://github.com/mbescalante/nexusdata/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/nexusdata/nexusdata-docs/edit/main/blog/',
+            'https://github.com/mbescalante/nexusdata/edit/main/blog/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -83,7 +83,7 @@ const config = {
           {to: '/docs/quickstart', label: 'Inicio Rápido', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/nexusdata/nexusdata-api',
+            href: 'https://github.com/mbescalante/nexusdata',
             label: 'GitHub',
             position: 'right',
           },
@@ -153,7 +153,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/nexusdata/nexusdata-api',
+                href: 'https://github.com/mbescalante/nexusdata',
               },
             ],
           },
