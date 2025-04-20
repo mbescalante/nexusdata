@@ -1,0 +1,44 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo con un gradiente suave -->
+  <rect width="800" height="600" rx="20" fill="url(#paint0_linear)" />
+  
+  <!-- Servidor Central (NexusData API) -->
+  <rect x="320" y="150" width="160" height="100" rx="10" fill="#2563EB" />
+  <text x="400" y="200" font-family="Inter, sans-serif" font-size="18" fill="white" text-anchor="middle">NexusData API</text>
+  
+  <!-- Database -->
+  <rect x="160" y="300" width="120" height="80" rx="10" fill="#0EA5E9" />
+  <text x="220" y="340" font-family="Inter, sans-serif" font-size="16" fill="white" text-anchor="middle">Base de Datos</text>
+  
+  <!-- REST API -->
+  <rect x="520" y="300" width="120" height="80" rx="10" fill="#6366F1" />
+  <text x="580" y="340" font-family="Inter, sans-serif" font-size="16" fill="white" text-anchor="middle">REST API</text>
+  
+  <!-- GraphQL -->
+  <rect x="320" y="400" width="160" height="80" rx="10" fill="#8B5CF6" />
+  <text x="400" y="440" font-family="Inter, sans-serif" font-size="16" fill="white" text-anchor="middle">GraphQL</text>
+  
+  <!-- Client -->
+  <rect x="320" y="40" width="160" height="60" rx="8" fill="#3B82F6" />
+  <text x="400" y="75" font-family="Inter, sans-serif" font-size="16" fill="white" text-anchor="middle">Cliente</text>
+  
+  <!-- Conexiones -->
+  <path d="M400 100L400 150" stroke="#94A3B8" stroke-width="3" />
+  <path d="M320 200L160 340" stroke="#94A3B8" stroke-width="3" />
+  <path d="M480 200L520 340" stroke="#94A3B8" stroke-width="3" />
+  <path d="M400 250L400 400" stroke="#94A3B8" stroke-width="3" />
+  
+  <!-- Flechas -->
+  <path d="M395 140L400 150L405 140" stroke="#94A3B8" stroke-width="3" />
+  <path d="M170 330L160 340L170 350" stroke="#94A3B8" stroke-width="3" />
+  <path d="M510 330L520 340L510 350" stroke="#94A3B8" stroke-width="3" />
+  <path d="M395 390L400 400L405 390" stroke="#94A3B8" stroke-width="3" />
+  
+  <!-- Definición del gradiente para el fondo -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F5F9" />
+      <stop offset="1" stop-color="#E2E8F0" />
+    </linearGradient>
+  </defs>
+</svg> 
